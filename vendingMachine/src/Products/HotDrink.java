@@ -14,6 +14,9 @@ public class HotDrink extends Product {
     public HotDrink(String name, int price,int temperature) {
         super(name, price);
         this.temperature = temperature;
+        if ((temperature <= 0) ||(temperature >= 100)) {
+            throw new IllegalStateException(String.format("Температура указана некорректно", temperature));
+        }
     }
 
     /** Получаем температуру напитка */

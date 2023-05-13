@@ -6,6 +6,9 @@ public class Teacher extends User{
     private String subject;
     /**Идентификатор преподавателя */
     private int idTeacher;
+    /**Ученная степень */
+    private String academicDegree;
+
     /**
      * Конструктор преподавателя
      * @param firstName Имя
@@ -15,10 +18,11 @@ public class Teacher extends User{
      * @param idTeacher Идентификатор учителя
      * @param subject Предмет, преподаваемый учителем
      */
-    public Teacher(String firstName, String lastName, String address, int age, int idTeacher, String subject) {
+    public Teacher(String firstName, String lastName, String address, int age, int idTeacher, String subject,String academicDegree) {
         super(firstName, lastName, address, age);
         this.idTeacher = idTeacher;
         this.subject = subject;
+        this.academicDegree = academicDegree;
     }
     /**
      * 
@@ -59,6 +63,12 @@ public class Teacher extends User{
         ", idTeacher= " + this.getIdTeacher() + '\'' +
         ", subject= " + this.getSubject() +
         '}';
+    }
+    public String getLevel() {
+        return academicDegree;
+    }
+    public void setLevel(String level) {
+        this.academicDegree = level;
     }
     
 
