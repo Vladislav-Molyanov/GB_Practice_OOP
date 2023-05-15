@@ -26,11 +26,7 @@ public class EmployeeServise implements iUserServise<Employees> {
     }
 
     
-    public List<Employees> getSortedByFIOStudentGroup(int numberGrop) {
-        List<Employees> emps = new ArrayList<>(employees);
-        emps.sort(new UserComparator<>());
-        return emps;
-    }
+    
 
     
 }

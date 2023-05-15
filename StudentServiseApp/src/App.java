@@ -12,7 +12,6 @@ import StudentDomen.Student;
 import StudentDomen.StudentGroup;
 import StudentDomen.StudentStream;
 import StudentDomen.Teacher;
-import StudentDomen.User;
 import StudentServise.AvgAge;
 
 public class App {

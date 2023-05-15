@@ -1,8 +1,8 @@
 package Controllers;
 
 import StudentDomen.Teacher;
-import StudentServise.TeacherServise;
 import StudentDomen.User;
+import StudentServise.TeacherServise;
 
 public class TeacherController implements iUserController<Teacher> {
     private final TeacherServise teachServise = new TeacherServise();

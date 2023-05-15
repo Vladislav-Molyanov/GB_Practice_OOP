@@ -1,0 +1,10 @@
+Vladislav class Model.Student Samara 25 2313
+Elena class Model.Student Buzaevka 18 777
+Alex class Model.Student Pohvestnevo 22 1200
+Elizaveta class Model.Student Toll'yati 25 2320
+Arseniy class Model.Student Samara 21 1001
+Ivan class Model.Student Moscow 18 778
+Maksim class Model.Student Moscow 18 776
+Nataliya class Model.Student Samara 27 2333
+Ivan class Model.Student Moscow 23 3241
+
