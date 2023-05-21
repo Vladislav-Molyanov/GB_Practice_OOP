@@ -1,9 +1,9 @@
 package LSP;
 
-public class Circle extends Figure {
+public class CircleLSP extends Figure {
     private Double radius;
 
-    public Circle(Double radius) {
+    public CircleLSP(Double radius) {
         this.radius = radius;
     }
 
