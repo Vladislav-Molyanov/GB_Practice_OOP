@@ -1,4 +1,7 @@
-import LSP.Circle;
+import ISP.Cub;
+import LSP.CircleLSP;
+import DIP.iGasStation;
+import ISP.CircleISP;
 import LSP.Figure;
 import LSP.Square;
 import LSP.Triangle;
@@ -20,7 +23,7 @@ public class App {
 
         System.out.println("--------------Пример LSP-------------");
 
-        Circle circle = new Circle(5.5);
+        CircleLSP circle = new CircleLSP(5.5);
         circle.getArea();
         circle.getPerimeter();
 
@@ -32,6 +35,16 @@ public class App {
         triangle.getArea();
         triangle.getPerimeter();        
         System.out.println("--------------Пример LSP-------------");
+
+        System.out.println("--------------Пример ISP-------------");
+        CircleLSP circleLSP = new CircleLSP(6.5);
+        circleLSP.getArea();
+        Cub cub = new Cub(5);
+        cub.getArea();
+        cub.getVolume();
+        System.out.println("--------------Пример ISP-------------");
+
+        
 
     }
 }
